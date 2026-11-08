@@ -1,0 +1,33 @@
+# Local environments and generated artifacts
+.idea/
+.vscode/
+.venv/
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+node_modules/
+dist/
+build/
+cmake-build*/
+*.tsbuildinfo
+*.so
+*.pyd
+*.dll
+*.a
+*.lib
+*.o
+*.obj
+frontend/test-results/
+frontend/playwright-report/
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.crt

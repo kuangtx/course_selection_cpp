@@ -1,0 +1,32 @@
+{
+  "term": {
+    "total_weeks": 18,
+    "days_per_week": 7,
+    "periods_per_day": 13
+  },
+  "preference": {
+    "default_course_score": 80,
+    "course_weight": 0.7,
+    "time_weight": 0.3,
+    "default_early_penalty": 10
+  },
+  "search": {
+    "candidate_limit": 32,
+    "max_search_nodes": 50000
+  },
+  "fallback": {
+    "max_scenarios": 24,
+    "max_total_nodes": 25000,
+    "max_examples": 3,
+    "max_nodes_per_scenario": -1
+  },
+  "ranking": {
+    "preference_weight": 0.5,
+    "risk_weight": 0.3,
+    "fallback_weight": 0.2
+  },
+  "alert": {
+    "threshold": 0.15,
+    "cooldown_seconds": 300
+  }
+}
